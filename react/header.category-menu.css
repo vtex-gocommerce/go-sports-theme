@@ -1,0 +1,8 @@
+.vtex-category-menu {
+  background-color: #ff7200;
+}
+
+.vtex-category-menu__item a {
+  color: #ffffff;
+  font-weight: 500;
+}
