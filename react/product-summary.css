@@ -11,6 +11,7 @@
 .vtex-product-summary__image-container {
   max-height: 216px;
   max-width: 216px;
+  margin-bottom: 3px;
 }
 
 .vtex-discount-badge div.absolute {
@@ -23,10 +24,10 @@
 .vtex-product-summary__name-container {
   color: #142032;
   font-size: 0.875rem;
-  line-height: 24px;
+  line-height: 18px;
   text-align: center;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 .vtex-product-summary__buy-button {
@@ -77,4 +78,14 @@
   font-size: 0.875rem;
   line-height: 24px;
   color: #142032;
+}
+
+@media screen and (min-width: 40em) {
+  .vtex-product-summary__name-container {
+    line-height: 24px;
+    padding-bottom: 14px;
+  }
+  .vtex-discount-badge div.absolute {
+    right: -30px;
+  }
 }

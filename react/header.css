@@ -12,12 +12,16 @@
   border: 1px solid #e3e4e6;
   border-radius: 24px;
   height: 48px;
-
   padding: 0 24px !important;
 }
 
+.vtex-top-menu__logo {
+  max-width: 100px;
+  margin-left: 5px;
+}
+
 @media screen and (min-width: 40em) {
-  .vtex-top-menu {
+  q .vtex-top-menu {
     height: 80px;
     padding-left: 0;
     padding-right: 0;
@@ -25,6 +29,7 @@
 
   .vtex-top-menu__logo {
     max-width: 169px;
+    margin-left: 0;
   }
 
   .vtex-top-menu__search-bar {
