@@ -1,6 +1,7 @@
 {
   "vendor": "gocommerce",
   "name": "go-sports-theme",
+  "title": "Sports Theme",
   "version": "0.0.3",
   "builders": {
     "pages": "0.x",
@@ -8,9 +9,7 @@
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "settingsSchema": {},
   "scripts": {
     "postreleasy": "vtex publish --verbose"
