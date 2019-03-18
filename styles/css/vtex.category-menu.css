@@ -1,0 +1,42 @@
+.container {
+  background: #ff7200;
+}
+
+.container > section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container > section > ul:global(.h3) {
+  height: 46px;
+}
+
+.container > ul {
+  height: 60px;
+}
+
+.itemContainer > section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.itemContainer > a {
+  color: #fff;
+  font-weight: 500;
+  padding: 14px 0;
+}
+
+.itemContainer a:global(.b--action-primary) {
+  border-bottom-color: #142032;
+}
+
+.firstLevelLink {
+  font-weight: 500;
+}
+
+.secondLevelLink {
+  font-size: 12px;
+  line-height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+}

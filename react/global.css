@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2:500);
-@import url(https://fonts.googleapis.com/css?family=Exo+2:400);
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:600);
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:400);
 
 body,
 button,
@@ -13,15 +13,5 @@ h2,
 h3,
 h4,
 p1 {
-  font-family: 'Exo 2', sans-serif !important;
+  font-family: 'Zilla Slab', serif !important;
 }
-
-@import url(./header.css);
-@import url(./header.menu-link.css);
-@import url(./header.category-menu.css);
-@import url(./header.login.css);
-@import url(./header.mini-cart.css);
-@import url(./search-result.css);
-@import url(./product-summary.css);
-@import url(./product-details.css);
-@import url(./footer.css);

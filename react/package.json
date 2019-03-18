@@ -1,6 +1,11 @@
 {
-  "name": "vtex.pizzahut",
-  "dependencies": {
-    "js-cookie": "^2.2.0"
+  "name": "gocommerce.theme-sports",
+  "version": "1.0.0",
+  "dependencies": {},
+  "description": "",
+  "main": "ThemeSports.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
